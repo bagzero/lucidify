@@ -18,9 +18,9 @@ const QuoteSection = () => {
                     <h2 className="tracking-[4px] font-medium text-[12px]">OUTCOME</h2>
                 </div>
                 <h1 className="HeadingFont">Boost your <span className="TextGradient">Online Presence</span>.</h1>
-                <h3 className="TextFont max-w-[600px] my-[15px] text-center">"A significant portion of internet users, about <span className="font-medium">48%</span>, view web design as a
+                <h3 className="TextFont max-w-[600px] my-[15px] text-center">&quot;A significant portion of internet users, about <span className="font-medium">48%</span>, view web design as a
                     crucial factor in determining the credibility of a business.
-                    The way a website looks can impact the first impression and overall perception of a company."
+                    The way a website looks can impact the first impression and overall perception of a company.&quot;
                     <div className="mt-[20px] mr-[15px]">
                         <h3 className="TextFont text-end">- Forbes</h3>
                     </div>
