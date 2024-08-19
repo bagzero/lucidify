@@ -104,7 +104,7 @@ const CaseStudySection = () => {
                     <div className="flex flex-col justify-center align-center mt-[300px]">
                         <Link
                             className="flex justify-center items-center TransparentBackgroundGradient rounded-[50px] CaseStudyHover"
-                            href="/">
+                            href="https://bgintl.co/" target="_blank">
                             <div className="w-full h-full bg-[#00000080] z-40 absolute flex justify-center items-center ViewMoreCard opacity-0">
                                 <div className="flex items-center">
                                     <h3 className="text-[20px] font-light z-40">View Live</h3>
