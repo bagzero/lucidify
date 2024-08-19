@@ -45,7 +45,7 @@ const Navbar = () => {
                             href="/"
                             className="mx-6 font-medium flex flex-col items-center NavItemHover"
                         >
-                            Let's Connect
+                            Let&apos;s Connect
                             <div className="h-[1px] w-[50%] bg-white rounded-full NavItemUnderline"></div>
                         </Link>
                     </div>
