@@ -18,7 +18,7 @@ const ProcessSection = () => {
                                     height={0}          // leave at 0
                                 />
                             </div>
-                            <h2 className="TextFont tracking-[1.5px] font-medium">It's that simple.</h2>
+                            <h2 className="TextFont tracking-[1.5px] font-medium">It&apos;s that simple.</h2>
                         </div>
                     </div>
 
