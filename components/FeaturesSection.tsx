@@ -11,7 +11,7 @@ const FeaturesSection = () => {
                     </div>
                     <div className="flex flex-col items-center sm:mt-[200px] mt-[100px] sm:max-w-[100%] max-w-[80%]">
                         <h1 className="HeadingFont sm:text-start text-center">Why businesses choose <span className="TextGradient">Lucidify</span>.</h1>
-                        <h3 className="TextFont mt-[15px] sm:text-start text-center">We don’t want just build websites., we build <span className="font-medium">relationships</span>.</h3>
+                        <h3 className="TextFont mt-[15px] sm:text-start text-center">We don’t just build websites, we build <span className="font-medium">relationships</span>.</h3>
                     </div>
 
                     <div className="flex sm:flex-row flex-col justify-between sm:mt-[100px] mt-[50px]">
