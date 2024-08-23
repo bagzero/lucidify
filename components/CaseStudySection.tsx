@@ -42,7 +42,7 @@ const CaseStudySection = () => {
                             <div className="flex flex-col mt-[100px] mb-[75px] relative justify-center">
                                 <div className="max-w-[500px] z-20">
                                     <Image
-                                        src="/VENSAR homepage.png"
+                                        src="/VENSAR Homepage.png"
                                         alt="VENSAR Case Study Website"
                                         layout="responsive"  // Adjusts height based on width while maintaining aspect ratio
                                         width={0}           // leave at 0 (wrap with a div and that will choose the width)
@@ -52,7 +52,7 @@ const CaseStudySection = () => {
                                 </div>
                                 <div className="max-w-[500px] -mt-[75px] ml-[150px]">
                                     <Image
-                                        src="/VENSAR flashcards.png"
+                                        src="/VENSAR Flashcards.png"
                                         alt="VENSAR Case Study Website"
                                         layout="responsive"  // Adjusts height based on width while maintaining aspect ratio
                                         width={0}           // leave at 0 (wrap with a div and that will choose the width)
@@ -62,7 +62,7 @@ const CaseStudySection = () => {
                                 </div>
                                 <div className="max-w-[500px] -mt-[75px] z-10">
                                     <Image
-                                        src="/VENSAR footer.png"
+                                        src="/VENSAR Footer.png"
                                         alt="VENSAR Case Study Website"
                                         layout="responsive"  // Adjusts height based on width while maintaining aspect ratio
                                         width={0}           // leave at 0 (wrap with a div and that will choose the width)
@@ -134,7 +134,7 @@ const CaseStudySection = () => {
                                 </div>
                                 <div className="max-w-[500px] -mt-[75px]">
                                     <Image
-                                        src="/BGINTL flashcards.png"
+                                        src="/BGINTL Flashcards.png"
                                         alt="BGINTL Case Study Website"
                                         layout="responsive"  // Adjusts height based on width while maintaining aspect ratio
                                         width={0}           // leave at 0 (wrap with a div and that will choose the width)
@@ -144,7 +144,7 @@ const CaseStudySection = () => {
                                 </div>
                                 <div className="max-w-[500px] -mt-[75px] z-10 ml-[150px]">
                                     <Image
-                                        src="/BGINTL footer.png"
+                                        src="/BGINTL Footer.png"
                                         alt="BGINTL Case Study Website"
                                         layout="responsive"  // Adjusts height based on width while maintaining aspect ratio
                                         width={0}           // leave at 0 (wrap with a div and that will choose the width)
