@@ -7,7 +7,13 @@ import { useSearchParams } from 'next/navigation'; // Assuming you're still usin
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 
-const ProjectPage = ({ params }) => {
+type ProjectPageProps = {
+  params: {
+    projectId: string;
+  };
+};
+
+const ProjectPage = ({ params }: ProjectPageProps) => {
   const router = useRouter();
   const searchParams = useSearchParams(); // Initialize useSearchParams
   const userId = searchParams.get('userId'); // Get userId from query parameters
