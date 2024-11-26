@@ -13,7 +13,7 @@ type ProjectPageProps = {
   };
 };
 
-const ProjectPage = ({ params }: { params: { projectId: string } }) => { // Explicitly type params
+const ProjectPage = ({ params }: ProjectPageProps) => {
   const router = useRouter();
   const { user } = useAuth(); // Retrieve user from authentication context
   const searchParams = useSearchParams(); // Initialize useSearchParams
