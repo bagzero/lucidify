@@ -13,12 +13,12 @@ type ProjectPageProps = {
   };
 };
 
-const ProjectPage = ({ params }: ProjectPageProps) => {
+const ProjectPage = ({ params }: { params: { projectId: string } }) => { // Explicitly type params
   const router = useRouter();
   const { user } = useAuth(); // Retrieve user from authentication context
   const searchParams = useSearchParams(); // Initialize useSearchParams
   const userId = searchParams.get('userId'); // Get userId from query parameters
-  const projectId = searchParams.get('projectId'); // Get projectId from query parameters
+  const projectId = params.projectId; // Get projectId from params
 
   console.log(userId);
   console.log(projectId);
