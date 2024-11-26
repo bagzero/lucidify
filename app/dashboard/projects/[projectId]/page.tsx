@@ -21,7 +21,7 @@ const ProjectPage = () => {
       if (!user) {
         router.push('/login');  // Redirect to login if no user is logged in
       } else {
-        // Check if the user is admin based on their email
+        // Check if the user is admin based on their emaill
         if (user.email === 'ayush.bhujle@gmail.com') {
           // Admin
         } else {
